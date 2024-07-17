@@ -60,6 +60,7 @@ local Toggle = MainTab:CreateToggle({
     end,
 })
 
+
 -- Reduce Lag Toggle
 local Toggle = MainTab:CreateToggle({
     Name = "Reduce Lag",
