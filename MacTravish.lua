@@ -52,7 +52,7 @@ local Toggle = MainTab:CreateToggle({
                     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
                 end
                 
-                wait(600) -- Set the time duration here (in seconds)
+                wait(120) -- Set the time duration here (in seconds)
             end
         else
             _G.antiAFKActive = false
